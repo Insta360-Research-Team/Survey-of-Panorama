@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+    content="One Flight Over the Gap: A Survey from Perspective to Panoramic Vision">
+  <meta name="keywords" content="Panoramic Vision, Domain Gap, Projection Distortion.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>
+    One Flight Over the Gap: A Survey from Perspective to Panoramic Vision
+  </title>
+  
+  <link rel="icon" href="./insta_logo.png" type="image/png">
+  <link rel="shortcut icon" href="./insta_logo.png" type="image/png">
+  <link rel="icon" href="./static/images/insta_logo_1-32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="./static/images/insta_logo_1-48.png" sizes="48x48" type="image/png">
+  <link rel="icon" href="./static/images/insta_logo_1-64.png" sizes="64x64" type="image/png">
+
+
+    <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QZ38WT2YPD"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-QZ38WT2YPD');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+
+  <script src="https://kit.fontawesome.com/19914a84eb.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+
+<section class="hero is-link is-fullheight video" style="overflow: hidden; position:relative;">
+    <div class="hero-video" style="height: 100%; width: 177.77777778vh; min-width: 100%;min-height: 56.25vw;">
+    <video playsinline autoplay muted loop>
+      <source src=" ./static/videos/bg1.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="hero-video is-hidden-tablet is-inline-block-mobile"
+    style="height: 154.28571428vw; width: 100%; min-width:64.81481481vh;min-height:100%;">
+    <video playsinline autoplay muted loop>
+      <source src=" ./static/videos/bg1.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="overlay"></div>
+  <!-- Hero head: will stick at the top -->
+  <div class="hero-head is-hidden-mobile">
+    <header class="navbar">
+      <div class="container is-size-5">
+        <div class="navbar-menu">
+          <div class="navbar-end">
+            <a class="navbar-item pl-4 pr-4" href="">
+              <span class="icon" style="margin-right:5px;">
+              <img src="./static/images/pdf.svg" alt="PDF" />
+              </span>
+              <span>Paper</span>
+            </a>
+            <a class="navbar-item  pl-4 pr-4" href="">
+              <span class="icon" style="margin-right:5px;">
+              <img src="./static/images/arxiv.svg" alt="ArXiv" />
+              </span>
+              <span>arXiv</span>
+            </a>
+            <a href="" class="button is-inverted is-large">
+              <span class="icon">
+              <i class="fab fa-github"></i>
+              </span>
+              <span>Code</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+  </div>
+
+  <!-- Hero content: will be in the middle -->
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <div style="display: inline-flex; align-items: center; justify-content: center;">
+    <img src="plane.png" alt="Plane" style="margin-top: 10px; width: 180px; height: auto;">
+    <h1 class="title is-1 publication-title is-size-1-mobile" style="font-size: 6rem; margin: 0;">
+      One Flight Over the Gap
+    </h1>
+  </div>
+      <h1 class="subtitle is-1 publication-title is-size-4-mobile" style="font-size: 4rem;">
+        A Survey from Perspective to Panoramic Vision
+      </h1>
+      <p>
+        <br>
+        <br>
+        <br>
+      <span>
+        <span style="font-size: 25px;"><a href="https://linxin0.github.io/">Xin Lin<sup>†</sup>,<sup></sup></a>
+      </span>
+      <span>
+        <span style="font-size: 25px;"><a href="">Xian Ge<sup>†</sup>,<sup></sup></a>
+      </span>
+      <span>
+        <span style="font-size: 25px;"><a href="">Dizhe Zhang<sup>*</sup>,<sup></sup></a>
+      </span>
+      <span>
+        <span style="font-size: 25px;"><a href="https://wan-zhaoliang.vercel.app/">Zhaoliang Wan,<sup></sup></a>
+      </span>
+      <span>
+        <span style="font-size: 25px;"><a href="">Xianshun Wang,<sup></sup></a>
+      </span>
+      <span>
+        <span style="font-size: 25px;"><a href="https://lxtgh.github.io/">Xiangtai Li,<sup></sup></a>
+      </span>
+      <br>
+      <span>
+        <span style="font-size: 25px;"><a href="">Wenjie Jiang,<sup></sup></a>
+      </span>
+      <span>
+        <span style="font-size: 25px;"><a href="">Bo Du,<sup></sup></a>
+      </span>
+      <span>
+        <span style="font-size: 25px;"><a href="">Dacheng Tao,<sup></sup></a>
+      </span>
+      <span>
+        <span style="font-size: 25px;"><a href="https://faculty.ucmerced.edu/mhyang/">Ming-Hsuan Yang,<sup></sup></a>
+      </span>
+      <span>
+        <span style="font-size: 25px;"><a href="http://luqi.info/">Lu Qi<sup></sup></a>
+      </span>
+      <div style="margin-top: 10px; font-size: 18px;">
+        <sup>†</sup> Equal Contribution. <sup>*</sup> Project Leader.
+      </div>
+      <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+      <span class="institution" style="display: inline-flex; align-items: center; gap: 8px; margin-right: 15px;">
+  <!-- 1. Insta360 Research -->
+  <img src="insta_logo_1.png" alt="Insta360 Logo" style="width: 288px; height: 64px; vertical-align: middle;">
+     </span>
+  <span class="institution" style="display: inline-flex; align-items: center; gap: 8px; margin-right: 15px;">
+  <!-- 2. Wuhan University -->
+  <img src="whu_logo_3.png" alt="Wuhan University Logo" style="width: 210px; height: 72px; vertical-align: middle; transform: translateY(4px);">
+  </span>
+  <span class="institution" style="display: inline-flex; align-items: center; gap: 8px; margin-right: 15px;">
+  <!-- 3. UCSD -->
+  <img src="ucsd_logo_2.png" alt="UCSD" style="width: 310px; height: 68px; vertical-align: middle;">
+  </span>
+  <span class="institution" style="display: inline-flex; align-items: center; gap: 8px; margin-right: 15px;">
+  <!-- 4. NTU -->
+  <img src="ntu_logo_1.png" alt="NTU" style="width: 160px; height: 72px; vertical-align: middle; transform: translateY(6px);">
+  </span> 
+  <span class="institution" style="display: inline-flex; align-items: center; gap: 8px; margin-right: 15px;">
+  <!-- 5. UC Merced -->
+  <img src="ucm_logo_2.png" alt="UC Merced Logo" style="width: 280px; height: 64px; vertical-align: middle;">
+  </span> 
+      </p>
+      <div class="column has-text-centered is-hidden-tablet">
+        <div class="publication-links">
+          <!-- PDF Link. -->
+          <span class="link-block">
+            <a href="" class="external-link button is-normal is-rounded is-dark">
+              <span class="icon">
+                <img src="./static/images/arxiv.svg" alt="ArXiv" />
+              </span>
+              <span>arXiv</span>
+            </a>
+          </span>
+          <!-- Code Link. -->
+          <span class="link-block">
+            <a href="https://github.com/linxin0/Panorama-Survey"
+              class="external-link button is-normal is-rounded is-dark">
+              <span class="icon">
+                <i class="fab fa-github"></i>
+              </span>
+              <span>Code</span>
+            </a>
+          </span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+<section class="section is-medium" id="overview">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths has-text-justified is-hidden-mobile">
+        <h2 class="subtitle ">
+        Panoramic vision provides holistic 360 perception, supporting applications in <b>VR, autonomous driving, and embodied robotics</b>. 
+    Unlike conventional perspective images, panoramic imagery exhibits unique geometric distortions, non-uniform spatial sampling, 
+    and boundary continuity, creating a substantial <b>domain gap</b> that hinders direct transfer of existing vision models. 
+        </h2>
+        <br>
+        <h2 class="subtitle">
+          <strong>The best part?</strong>
+          In this survey, we categorize panoramic vision into four major directions: 
+    <b>visual quality enhancement, visual understanding, multimodal fusion, and visual generation</b>, covering 
+    <b>20+ tasks and nearly 300 papers</b>. Finally, we discuss open challenges and future directions, with a focus on 
+    <b>data, models, and applications</b> that will guide the continued development 
+    of panoramic vision research.
+        </h2>
+      </div>
+
+      <div class="column is-four-fifths is-hidden-tablet has-text-justified-mobile">
+        <p>
+          Panoramic vision provides holistic 360 perception, supporting applications in <b>VR, autonomous driving, and embodied robotics</b>. 
+    Unlike conventional perspective images, panoramic imagery exhibits unique geometric distortions, non-uniform spatial sampling, 
+    and boundary continuity, creating a substantial <b>domain gap</b> that hinders direct transfer of existing vision models.
+        </p>
+        <br>
+        <p>
+          <strong>The best part?</strong>
+          In this survey, we categorize panoramic vision into four major directions: 
+    <b>visual quality enhancement, visual understanding, multimodal fusion, and visual generation</b>, covering 
+    <b>20+ tasks and nearly 300 papers</b>. Finally, we discuss open challenges and future directions, with a focus on 
+    <b>data, models, and applications</b> that will guide the continued development 
+    of panoramic vision research.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section is-small" id="umi">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-1 has-text-centered is-size-4-mobile">Methods</h2>
+        <div class="content">
+          <p>
+          </p>
+          <img src="method_1.png" alt="Teaser figure" style="width:100%; border-radius:8px; margin-top:1rem;">
+          <img src="method_2.jpg" alt="Teaser figure" style="width:100%; border-radius:8px; margin-top:1rem;">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+        
+
+<section class="section is-small" id="umi">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-1 has-text-centered is-size-4-mobile">Future Directions</h2>
+        <div class="content">
+          <p>
+          </p>
+          <img src="Future_Direction.png" alt="Teaser figure" style="width:100%; border-radius:8px; margin-top:1rem;">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Citation -->
+  <section>
+    <h2>Citation</h2>
+<pre>
+@article{lin2025panorama,
+  title={One Flight Over the Gap: A Survey from Perspective to Omnidirectional Vision},
+  author={Lin, Xin and Ge, Xian and Zhang, Dizhe and Wan, Zhaoliang and Wang, Xianshun and Li, Xiangtai and Jiang, Wenjie and Du, Bo and Yang, Ming-Hsuan and Qi, Lu},
+  journal={arXiv},
+  year={2025}
+}
+</pre>
+  </section>
+        
+
+<video autoplay muted loop playsinline width="100%">
+  <source src="./static/videos/umi-grid-small.mp4" type="video/mp4">
+</video>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            Website template modified from <a href="https://nerfies.github.io/">NeRFies</a>, <a
+              href="https://huy-ha.github.io/scalingup/">Scaling Up Distilling Down</a>, and <a href="https://umi-on-legs.github.io/">UMI on Legs</a>.
+          </p>
+          <p>
+            This website is licensed under a <a rel="license"
+              href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+              Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+          <p>
+            This means you are free to borrow and modify the <a
+              href="https://github.com/nerfies/nerfies.github.io">source
+              code</a> of this website as long as
+            you link back to the <a href="https://nerfies.github.io/">NeRFies</a> page in the footer.
+            Please remember to remove the analytics code included in the header of the website which
+            you do not want on your website.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+
+</html>
