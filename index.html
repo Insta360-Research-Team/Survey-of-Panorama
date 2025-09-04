@@ -49,11 +49,12 @@
     </video>
   </div>
   <div class="hero-video is-hidden-tablet is-inline-block-mobile"
-    style="height: 154.28571428vw; width: 100%; min-width:64.81481481vh;min-height:100%;">
-    <video playsinline autoplay muted loop>
-      <source src=" ./videos/mobile_video.mp4" type="video/mp4">
-    </video>
-  </div>
+    style="height: 154.28571428vw; width: 100%; min-width:64.81481481vh;min-height:100%; overflow: hidden;">
+  <video playsinline autoplay muted loop
+         style="width: 100%; height: 100%; object-fit: cover;">
+    <source src="./videos/mobile_video.mp4" type="video/mp4">
+  </video>
+</div>
   <div class="overlay"></div>
   <!-- Hero head: will stick at the top -->
   <div class="hero-head is-hidden-mobile">
