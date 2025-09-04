@@ -216,8 +216,8 @@ section.hero.video {            /* 你的 <section class="hero ... video"> */
 
 /* logo 默认尺寸 */
 .institution-logos img {
-  height: 64px;
-  width: 750px;
+  height: 64px !important;
+  width: 750px !important;
   margin: 0 10px;
 }
 
@@ -228,8 +228,8 @@ section.hero.video {            /* 你的 <section class="hero ... video"> */
     margin: 0 4px !important;
   }
   .institution-logos img {
-    height: 16px;      /* logo 缩小 */
-    width: 162px;
+    height: 16px !important;      /* logo 缩小 */
+    width: 162px !important;
     margin: 0 6px;
   }
 }
