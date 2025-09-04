@@ -217,7 +217,7 @@ section.hero.video {            /* 你的 <section class="hero ... video"> */
 /* logo 默认尺寸 */
 .institution-logos img {
   height: 64px !important;
-  width: 750px !important;
+  width: 1000px !important;
   margin: 0 10px;
 }
 
