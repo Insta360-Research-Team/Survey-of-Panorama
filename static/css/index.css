@@ -196,11 +196,11 @@ transition: opacity 1.0s;
 /* 手机端缩小 */
 @media screen and (max-width: 768px) {
   .author-list span {
-    font-size: 10px;   /* 作者名字变小 */
+    font-size: 4px;   /* 作者名字变小 */
   }
 
   .institution-logos img {
-    height: 20px;      /* logo 缩小 */
+    height: 10px;      /* logo 缩小 */
     margin: 0 6px;
   }
 }
