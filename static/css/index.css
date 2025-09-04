@@ -224,7 +224,7 @@ section.hero.video {            /* 你的 <section class="hero ... video"> */
 @media screen and (max-width: 768px) {
   .author-list span {
     font-size: 15px !important;
-    margin: 0 1px !important;
+    margin: 0 2px !important;
   }
 
   .institution-logos img {
