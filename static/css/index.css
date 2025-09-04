@@ -221,7 +221,7 @@ section.hero.video {            /* 你的 <section class="hero ... video"> */
 }
 
 /* 手机端缩小 */
-@media screen and (max-width: 308px) {
+@media screen and (max-width: 568px) {
   .author-list span {
     font-size: 12px;   /* 作者名字变小 */
   }
