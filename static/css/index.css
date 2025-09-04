@@ -234,6 +234,6 @@ section.hero.video {            /* 你的 <section class="hero ... video"> */
     margin: 0 4px !important;
   }
 .institution-logos img {
-    height: 36px;      /* 或者 32px，根据你手机观感调 */
+    height: 20px;      /* 或者 32px，根据你手机观感调 */
   }
 }
