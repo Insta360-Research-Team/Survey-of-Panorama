@@ -228,8 +228,8 @@ section.hero.video {            /* 你的 <section class="hero ... video"> */
     margin: 0 4px !important;
   }
   .institution-logos img {
-    height: 32px;      /* logo 缩小 */
-    width: 325px;
+    height: 16px;      /* logo 缩小 */
+    width: 162px;
     margin: 0 6px;
   }
 }
