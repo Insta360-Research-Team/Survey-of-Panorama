@@ -214,11 +214,18 @@ section.hero.video {            /* 你的 <section class="hero ... video"> */
   margin: 0 6px;
 }
 
-/* logo 默认尺寸 */
+.institution-logos {
+  display: flex;
+  align-items: center;
+  gap: 12px;           /* 控制 logo 间距 */
+  flex-wrap: wrap;     /* 小屏自动换行 */
+}
+
+/* 只定高，宽自适应，保证不变形 */
 .institution-logos img {
-  height: 64px !important;
-  width: 1000px !important;
-  margin: 0 10px;
+  height: 64px;
+  width: auto;
+  display: block;
 }
 
 /* 手机端缩小 */
@@ -227,9 +234,7 @@ section.hero.video {            /* 你的 <section class="hero ... video"> */
     font-size: 18px !important;
     margin: 0 4px !important;
   }
-  .institution-logos img {
-    height: 16px !important;      /* logo 缩小 */
-    width: 240px !important;
-    margin: 0 6px;
+.institution-logos img {
+    height: 36px;      /* 或者 32px，根据你手机观感调 */
   }
 }
