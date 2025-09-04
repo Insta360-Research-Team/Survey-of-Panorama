@@ -214,6 +214,12 @@ section.hero.video {            /* 你的 <section class="hero ... video"> */
   margin: 0 6px;
 }
 
+.institution-logos {
+  display: flex;
+  justify-content: center;   /* 居中 */
+  margin: 20px 0;
+}
+
 /* 只定高，宽自适应，保证不变形 */
 .institution-logos img {
   height: 64px;
