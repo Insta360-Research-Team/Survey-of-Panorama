@@ -181,6 +181,30 @@ transition: opacity 1.0s;
   transition: opacity 1.0s;
 }
 
+section.hero.video {            /* 你的 <section class="hero ... video"> */
+  position: relative;
+  padding: 0;
+}
+
+.hero-video {
+  position: absolute;           /* 让视频容器铺满整块 hero */
+  inset: 0;                     /* 等价于 top/right/bottom/left:0 */
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.hero-video video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;            /* 关键：填满并裁掉溢出，去掉上下蓝边 */
+}
+
+/* 覆盖层和文字层的层级保持不变 */
+.overlay { z-index: 1; }
+.hero-head, .hero-body, .hero-foot { position: relative; z-index: 2; }
+
 /* 作者名字默认大字号 */
 .author-list span {
   font-size: 25px;
