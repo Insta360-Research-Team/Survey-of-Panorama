@@ -223,7 +223,7 @@ section.hero.video {            /* 你的 <section class="hero ... video"> */
 /* 手机端缩小 */
 @media screen and (max-width: 768px) {
   .author-list span {
-    font-size: 8px !important;
+    font-size: 15px !important;
     margin: 0 1px !important;
   }
 
